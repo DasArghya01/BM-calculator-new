@@ -1,0 +1,149 @@
+.htmlbody1{
+  padding-bottom: 350px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100%;
+
+}
+*{
+  transition: 0.5s ease, color 0.5s ease;
+}
+.banner1{
+  position: fixed ;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  background-color: black;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-right: 10px;
+  width: 100%;
+
+}
+.banner2{
+  margin-top: auto;
+  margin-bottom: 4px;
+  
+}
+.togglebutton1{
+  cursor: pointer;
+  margin-left: 6px;
+
+}
+.togglebutton2{
+  cursor: pointer;
+
+}
+.header{
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 48px;
+  width: 100%;
+  background-color: black;
+  
+}
+.main-container{
+  padding-top: 250px;
+  padding-bottom: 30px;
+
+}
+.information-div{
+  width:50%;
+  height: 100%;
+  padding-bottom: 30px;
+  margin-left: 1%;
+}
+.weightinput{
+  padding: 16px 60px;;
+  font-size: 150%;
+  padding-left: 10px;
+  border-width: 0.5px;
+  border-bottom: solid rgb(6, 5, 0) 6px ;
+  margin-bottom: auto;
+  width: 50%;
+  
+}
+.heightinput{
+  display: inline-block;
+  padding: 16px 60px;;
+  font-size: 140%;
+  padding-left: 10px;
+  border-width: 0.5px;
+  border-bottom: solid black 6px ;
+  margin-top: 10px;
+  width: 50%;
+
+}
+.calculate-button{
+  width: 30%;
+  height: 10%;
+  padding: 9px;
+  display: block;
+  font-size: 100%;
+  font-weight: bold;
+  border-width: 0.5px;
+  border: solid rgb(153, 5, 89) 4px;
+  border-radius: 4px;
+  margin-left: 50%;
+  cursor:  pointer;
+  margin-top: -117px;
+  margin-bottom:80px ;
+  position: inherit;
+  
+}
+.bmi-image{
+  margin-top: auto;
+  width: 50%;
+  min-height: 300px;
+  padding-bottom: 30px;
+  margin-left: 6px;
+
+}
+.result{
+  margin-left: 12px ;
+  padding-bottom: 28px;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+.bmi-details{
+  width: 70%;
+  margin-left: 13px;
+  margin-bottom: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.second-page-link{
+  margin-top: auto;
+  margin-bottom: 50px;
+  margin-left: 14px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  width: 400px;
+
+}
+.valueof-bmi-cal{
+  margin-left: 14px;
+  width:80%;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+.spanclass{
+  font-weight: bold;
+}
+.htmlbody2{
+  padding-bottom: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body.dark-mode{
+  background-color: black;
+  color: white;
+}
+.strongclass{
+  color:rgb(255, 0, 208)
+}

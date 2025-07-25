@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Arghya Das" content="BMI Calculatror" >
+  <title> BMI Calculator </title>
+
+  <link rel="stylesheet" href="style.css" >
+
+
+</head>
+
+<body class="htmlbody1">
+
+ <div class="banner1"> 
+  <div class="banner2">
+  <button class="togglebutton1"> ⚪️ </button>
+  <button class="togglebutton2"> ⚫️ </button>
+  </div>
+  <h1 class="header"> BMI CALCULATOR </h1>
+</div>
+
+<div class="main-container">
+  <div class="information-div">
+
+   <input placeholder="KG" class="weightinput" 
+   onkeydown="keyFunction(event)">
+  <br>
+  <input type="number" placeholder="Inches" 
+  class="heightinput" onkeydown="keyFunction(event)">
+  </div>
+  <button class="calculate-button"
+   onclick="calculation()"> Calculate </button>
+
+   <p class="result"></p>
+   <img src="bmi.img.webp" class="bmi-image">
+
+  </div>
+
+  
+
+    <div class="bmi-details">
+
+      <p> what is BMI (BODY MASS INDEX) ?</p>
+    <P>BMI (Body Mass Index) is a simple and reliable tool used to estimate whether your 
+      body weight is healthy for your height. It calculates a number using 
+      your weight and height to categorize you into ranges such as
+       underweight, normal, overweight, or obese.
+      <br>
+      <br>
+      BMI is widely used by healthcare professionals to assess your risk for conditions
+       like heart disease, diabetes, and more. While it does not directly measure body fat, it gives a quick insight 
+       into whether you are within a healthy range or may need to make lifestyle adjustments.
+      </P>
+
+    </div>
+
+    <p class="second-page-link"> Accorcing to your BMI know yourself
+      <br>
+      <span class="spanclass">
+        <a href="/2ndpage.index.html">
+        Click here </a>
+      </span> </p>
+
+      <div class="valueof-bmi-cal">
+
+        <p> Why use a BMI Calculator ? </p>
+      <li>
+         Fast & Easy: Instantly you can see where you stand. 
+        </li>
+         <li> Personalized: BMI is totally based on individual's 
+          height and weight.
+        </li>
+         <li> Informative: Helps you to guide and track your
+          fitness and health goals. 
+      </li>
+
+      </div>
+</div>
+
+      <script src="script.js"></script>
+
+      
+</body>
+</html>
